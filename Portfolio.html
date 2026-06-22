@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Omar Ali Zaki – Technical Office & BIM Electrical Engineer. Revit MEP LOD 300/400, Navisworks, AutoCAD, BOQ, shop drawings.">
+    <title>Omar Ali | BIM & Technical Office Engineer</title>
+    <link rel="stylesheet" href="./Portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <nav>
+        <div class="menu">
+            <a href="#home" class="logo">Omar <span>Ali</span></a>
+            <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#CV">CV</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <li>
+                    <a href="#" class="btn-nav-cv" onclick="printCV(event)">
+                        <i class="fa-solid fa-download"></i> Download CV
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="sec" id="home">
+        <div class="bio">
+            <h5>Hello, I'm</h5>
+            <h1>Eng <span>Omar Ali</span></h1>
+            <h3>Technical Office &amp; BIM Electrical Engineer</h3>
+            <p class="desc">
+                Electrical Engineer with proven experience in BIM coordination and technical office engineering for large-scale residential and commercial projects. Skilled in Revit MEP (LOD 300/400), Navisworks clash detection, BOQ preparation, and multidisciplinary coordination.
+            </p>
+
+            <div class="info-card">
+                <div class="info">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Location</span>
+                    <strong>Minia, Egypt</strong>
+                </div>
+                <div class="info">
+                    <i class="fa-solid fa-bolt"></i>
+                    <span>Experience</span>
+                    <strong>2+ Years</strong>
+                </div>
+                <div class="info">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span>Status</span>
+                    <strong>Available</strong>
+                </div>
+            </div>
+
+            <!-- Key stats -->
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-num">4+</span>
+                    <span class="stat-label">Projects</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-num">LOD 400</span>
+                    <span class="stat-label">BIM Level</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-num">7+</span>
+                    <span class="stat-label">Tools</span>
+                </div>
+            </div>
+
+            <div class="hero-actions">
+                <a class="btn primary" href="mailto:engomarali98@gmail.com?subject=Project%20Inquiry">
+                    <i class="fa-solid fa-envelope"></i>
+                    Contact Me
+                </a>
+                <a class="btn secondary" href="#CV">
+                    <i class="fa-solid fa-id-card"></i>
+                    View CV
+                </a>
+                <a class="btn secondary" href="#" onclick="printCV(event)">
+                    <i class="fa-solid fa-download"></i>
+                    Download CV
+                </a>
+            </div>
+        </div>
+
+        <div class="img1">
+            <img src="./images/img.jfif" alt="Omar Ali">
+        </div>
+    </section>
+
+    <!-- ===== CV SECTION ===== -->
+    <section class="cv-section" id="CV">
+        <div class="section-heading">
+            <div>
+                <h2>Curriculum Vitae</h2>
+                <p>Technical Office &amp; BIM Electrical Engineer with hands-on experience in large-scale residential and commercial projects.</p>
+            </div>
+            <button class="btn primary btn-print" onclick="printCV(event)">
+                <i class="fa-solid fa-print"></i> Print / Save PDF
+            </button>
+        </div>
+
+        <!-- CV Header — mirrors the PDF header -->
+        <div class="cv-header-card">
+            <div class="cv-header-name">
+                <h2>Omar Ali Zaki Mohamed</h2>
+                <p>Technical Office &amp; BIM Electrical Engineer</p>
+            </div>
+            <div class="cv-header-contacts">
+                <a href="mailto:engomarali98@gmail.com">
+                    <i class="fa-solid fa-envelope"></i> engomarali98@gmail.com
+                </a>
+                <a href="tel:+201119449175">
+                    <i class="fa-solid fa-phone"></i> +20 111 944 9175
+                </a>
+                <a href="https://www.linkedin.com/in/omar-ali" target="_blank" rel="noopener">
+                    <i class="fa-brands fa-linkedin"></i> linkedin.com/in/omar-ali
+                </a>
+                <span>
+                    <i class="fa-solid fa-location-dot"></i> Minia, Egypt
+                </span>
+                <span>
+                    <i class="fa-solid fa-shield-halved"></i> Military: Exempted
+                </span>
+            </div>
+        </div>
+
+        <!-- Professional Summary -->
+        <div class="cv-block">
+            <div class="cv-block-title">
+                <i class="fa-solid fa-user-tie"></i>
+                <h3>Professional Summary</h3>
+            </div>
+            <div class="cv-block-body">
+                <p>Electrical Engineer with proven experience in BIM coordination and technical office engineering for large-scale residential and commercial projects. Skilled in Revit MEP modeling (LOD 300/400), clash detection using Navisworks, and electrical design. Experienced in BOQ preparation, quantity take-off, and multidisciplinary coordination. <span class="cv-badge">Military Status: Exempted</span></p>
+            </div>
+        </div>
+
+        <!-- Professional Experience -->
+        <div class="cv-block">
+            <div class="cv-block-title">
+                <i class="fa-solid fa-briefcase"></i>
+                <h3>Professional Experience</h3>
+            </div>
+            <div class="cv-block-body cv-timeline">
+
+                <div class="cv-entry">
+                    <div class="cv-entry-header">
+                        <div>
+                            <h4>Technical Office &amp; BIM Electrical Engineer</h4>
+                            <span class="cv-company">Al Mada Contracting Company</span>
+                        </div>
+                        <span class="cv-date"><i class="fa-regular fa-calendar"></i> Dec 2025 – Present</span>
+                    </div>
+                    <ul class="cv-list">
+                        <li>Working on Al Masar (residential buildings &amp; villas), Crown Mall, MOT Mall, and BRT infrastructure project.</li>
+                        <li>Developed detailed Revit MEP models (LOD 300/400) for lighting, power, and low current systems.</li>
+                        <li>Performed clash detection and BIM coordination using Navisworks.</li>
+                        <li>Prepared shop drawings based on IFC drawings and project specifications.</li>
+                        <li>Produced BOQ and quantity take-off for residential, commercial, and infrastructure projects.</li>
+                        <li>Coordinated with consultants and multidisciplinary teams to resolve design conflicts.</li>
+                        <li>Supported site engineers with technical clarifications.</li>
+                    </ul>
+                </div>
+
+                <div class="cv-entry">
+                    <div class="cv-entry-header">
+                        <div>
+                            <h4>Site Electrical Engineer</h4>
+                            <span class="cv-company">Al Tawhid General Contracting Company – New Zayed City</span>
+                        </div>
+                        <span class="cv-date"><i class="fa-regular fa-calendar"></i> Oct 2024 – Dec 2025</span>
+                    </div>
+                    <ul class="cv-list">
+                        <li>Led site implementation for VYE &amp; Karmel projects.</li>
+                        <li>Supervised 6 subcontractors and coordinated installation activities.</li>
+                        <li>Oversaw electrical ceilings, conduit works, and infrastructure.</li>
+                        <li>Prepared invoices for contractors and self-employed workers.</li>
+                    </ul>
+                    <div class="cv-project-info">
+                        <div><i class="fa-solid fa-city"></i> <strong>Projects:</strong> Compound VYE (60 villas), Karmell (62 villas)</div>
+                        <div><i class="fa-solid fa-building"></i> <strong>Owner:</strong> SODIC &nbsp;|&nbsp; <strong>Consultant:</strong> Zuhair Fayez Partnership (ZFP)</div>
+                    </div>
+                </div>
+
+                <div class="cv-entry">
+                    <div class="cv-entry-header">
+                        <div>
+                            <h4>Electrical Engineer</h4>
+                            <span class="cv-company">El Shams Company for Electrical Supplies and Contracting</span>
+                        </div>
+                        <span class="cv-date"><i class="fa-regular fa-calendar"></i> Aug 2024 – Oct 2024</span>
+                    </div>
+                    <ul class="cv-list">
+                        <li>Worked on Financial Hub Mall in the New Administrative Capital.</li>
+                    </ul>
+                </div>
+
+                <div class="cv-entry">
+                    <div class="cv-entry-header">
+                        <div>
+                            <h4>Electrical Engineer</h4>
+                            <span class="cv-company">Karama Hospital – Adwa, Minia</span>
+                        </div>
+                        <span class="cv-date"><i class="fa-regular fa-calendar"></i> Mar 2024 – Jul 2024</span>
+                    </div>
+                    <ul class="cv-list">
+                        <li>Designed lighting, power, and HVAC systems.</li>
+                        <li>Prepared Excel sheets: panel schedule, average length, take-off, cutting list, outlet studying sheet, device studying sheet, and BOQ.</li>
+                        <li>Prepared shop drawings for lighting, power, HVAC, and light current systems.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Education -->
+        <div class="cv-block">
+            <div class="cv-block-title">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h3>Education</h3>
+            </div>
+            <div class="cv-block-body cv-timeline">
+                <div class="cv-entry">
+                    <div class="cv-entry-header">
+                        <div>
+                            <h4>BSc. in Electrical Engineering</h4>
+                            <span class="cv-company">Minia University – Faculty of Engineering, Communication &amp; Electronics Dept.</span>
+                        </div>
+                        <span class="cv-date"><i class="fa-regular fa-calendar"></i> Sep 2017 – May 2022</span>
+                    </div>
+                    <ul class="cv-list">
+                        <li>Grade: <strong>Good</strong> &nbsp;|&nbsp; Final Year: <strong>80%</strong></li>
+                        <li>Graduation Project: <strong>Hardware Implementation of Image Processing using FPGA</strong> – Grade: <span class="cv-badge">Excellent</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Technical Skills -->
+        <div class="cv-block">
+            <div class="cv-block-title">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+                <h3>Technical Skills</h3>
+            </div>
+            <div class="cv-block-body">
+                <div class="cv-skills-grid">
+                    <div class="cv-skill-item">
+                        <span class="cv-skill-label"><i class="fa-solid fa-cube"></i> BIM</span>
+                        <span class="cv-skill-tags">Revit MEP (LOD 300/400) &bull; Navisworks &bull; Dynamo</span>
+                    </div>
+                    <div class="cv-skill-item">
+                        <span class="cv-skill-label"><i class="fa-solid fa-bolt"></i> Design &amp; Analysis</span>
+                        <span class="cv-skill-tags">Lighting Design (Dialux/Evo) &bull; Power Distribution &bull; Load Estimation &bull; Short Circuit &bull; Voltage Drop</span>
+                    </div>
+                    <div class="cv-skill-item">
+                        <span class="cv-skill-label"><i class="fa-solid fa-network-wired"></i> Systems</span>
+                        <span class="cv-skill-tags">Fire Alarm &bull; CCTV &bull; Data &amp; Telephone &bull; Sound &bull; Nurse Call</span>
+                    </div>
+                    <div class="cv-skill-item">
+                        <span class="cv-skill-label"><i class="fa-solid fa-laptop-code"></i> Software</span>
+                        <span class="cv-skill-tags">AutoCAD &bull; Revit &bull; Navisworks &bull; Dynamo &bull; Dialux Evo &bull; ETAP &bull; Microsoft Office</span>
+                    </div>
+                    <div class="cv-skill-item">
+                        <span class="cv-skill-label"><i class="fa-solid fa-file-lines"></i> Documentation</span>
+                        <span class="cv-skill-tags">Shop Drawings &bull; As-Built Drawings &bull; BOQ Preparation</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Courses & Training -->
+        <div class="cv-block">
+            <div class="cv-block-title">
+                <i class="fa-solid fa-certificate"></i>
+                <h3>Courses &amp; Training</h3>
+            </div>
+            <div class="cv-block-body">
+                <div class="cv-courses-grid">
+                    <div class="cv-course-item"><span class="cv-course-year">2026</span><span>Electromechanical Estimation Training Program</span></div>
+                    <div class="cv-course-item"><span class="cv-course-year">2025</span><span>BMS Course</span></div>
+                    <div class="cv-course-item"><span class="cv-course-year">2025</span><span>Sound &amp; Nurse Call Systems</span></div>
+                    <div class="cv-course-item"><span class="cv-course-year">2024</span><span>Revit MEP – Mohamed Emam</span></div>
+                    <div class="cv-course-item"><span class="cv-course-year">2022</span><span>Distribution Systems (3 Months) – Mohamed Emam</span></div>
+                    <div class="cv-course-item"><span class="cv-course-year">2022</span><span>Dar Al-Kahrbaa Company – Internship (4 Months)</span></div>
+                    <div class="cv-course-item"><span class="cv-course-year">–</span><span>Electrical AutoCAD (Self-study, YouTube – 20 hours)</span></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Languages & Additional Info -->
+        <div class="cv-two-col">
+
+            <div class="cv-block">
+                <div class="cv-block-title">
+                    <i class="fa-solid fa-language"></i>
+                    <h3>Languages</h3>
+                </div>
+                <div class="cv-block-body">
+                    <div class="cv-lang-item">
+                        <span>Arabic</span>
+                        <div class="cv-lang-bar"><div class="cv-lang-fill" style="width:100%"></div></div>
+                        <span class="cv-lang-level">Native</span>
+                    </div>
+                    <div class="cv-lang-item">
+                        <span>English</span>
+                        <div class="cv-lang-bar"><div class="cv-lang-fill" style="width:60%"></div></div>
+                        <span class="cv-lang-level">Good</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cv-block">
+                <div class="cv-block-title">
+                    <i class="fa-solid fa-circle-info"></i>
+                    <h3>Additional Information</h3>
+                </div>
+                <div class="cv-block-body">
+                    <ul class="cv-list">
+                        <li>Member of the University Quality Team.</li>
+                        <li>Willing to relocate and travel.</li>
+                        <li>References available upon request.</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- ===== END CV SECTION ===== -->
+
+    <section class="contact" id="Contact">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Get In Touch</h2>
+                <p>Have a project, consultation, or electrical design request? Send me a message and I’ll get back to you as soon as possible.</p>
+
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <div>
+                            <span>Phone</span>
+                            <a href="tel:+201119449175">+20 111 944 9175</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <div>
+                            <span>WhatsApp</span>
+                            <a href="https://wa.me/201119449175">+20 111 944 9175</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div>
+                            <span>Email</span>
+                            <a href="mailto:engomarali98@gmail.com">engomarali98@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div>
+                            <span>Location</span>
+                            <span>Egypt</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/omar-ali" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://wa.me/201119449175" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="mailto:engomarali98@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+
+            <div class="contact-form-card">
+                <h2>Contact Me</h2>
+                <p>Fill out the form below and I’ll reply shortly.</p>
+
+                <form class="contact-form" id="contactForm" novalidate>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input id="name" type="text" name="from_name" placeholder="Your Name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input id="email" type="email" name="reply_to" placeholder="Your Email" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input id="phone" type="tel" name="phone" placeholder="Your Phone Number">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input id="subject" type="text" name="subject" placeholder="Subject" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Write your message..." required></textarea>
+                    </div>
+
+                    <button type="submit" id="submitBtn">
+                        <span class="btn-text">Send via WhatsApp</span>
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </button>
+                    <p class="form-success" id="formSuccess">
+                        <i class="fa-solid fa-circle-check"></i> Opening WhatsApp with your message — just hit Send there!
+                    </p>
+                    <p class="form-error" id="formError">
+                        <i class="fa-solid fa-circle-xmark"></i> Something went wrong. Please try WhatsApp or email directly.
+                    </p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <a href="#home" class="logo">Omar <span>Ali</span></a>
+            <p>Technical Office &amp; BIM Electrical Engineer &mdash; Minia, Egypt</p>
+            <div class="footer-links">
+                <a href="mailto:engomarali98@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                <a href="tel:+201119449175"><i class="fa-solid fa-phone"></i></a>
+                <a href="https://wa.me/201119449175" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.linkedin.com/in/omar-ali" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+            <span class="footer-copy">&copy; <span id="year"></span> Omar Ali Zaki. All rights reserved.</span>
+        </div>
+    </footer>
+
+    <script>
+
+        // ── Current year in footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // ── Active nav link on scroll
+        const sections = document.querySelectorAll('section[id]');
+        const navLinks = document.querySelectorAll('.nav-links a[href^="#"]');
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(e => {
+                if (e.isIntersecting) {
+                    navLinks.forEach(a => a.classList.remove('active'));
+                    const active = document.querySelector(`.nav-links a[href="#${e.target.id}"]`);
+                    if (active) active.classList.add('active');
+                }
+            });
+        }, { threshold: 0.35 });
+        sections.forEach(s => observer.observe(s));
+
+        // ── Mobile menu toggle
+        const toggle = document.querySelector('.nav-toggle');
+        const navList = document.querySelector('.nav-links');
+        toggle.addEventListener('click', () => {
+            const open = navList.classList.toggle('open');
+            toggle.setAttribute('aria-expanded', open);
+        });
+        navList.querySelectorAll('a').forEach(a => {
+            a.addEventListener('click', () => {
+                navList.classList.remove('open');
+                toggle.setAttribute('aria-expanded', false);
+            });
+        });
+
+        // ── Contact form – WhatsApp + Email fallback
+        const form       = document.getElementById('contactForm');
+        const submitBtn  = document.getElementById('submitBtn');
+        const btnText    = submitBtn.querySelector('.btn-text');
+        const successMsg = document.getElementById('formSuccess');
+        const errorMsg   = document.getElementById('formError');
+
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            if (!form.checkValidity()) { form.reportValidity(); return; }
+
+            const name    = document.getElementById('name').value.trim();
+            const email   = document.getElementById('email').value.trim();
+            const phone   = document.getElementById('phone').value.trim();
+            const subject = document.getElementById('subject').value.trim();
+            const message = document.getElementById('message').value.trim();
+
+            // Build WhatsApp message
+            const waText = encodeURIComponent(
+                `*New message from your Portfolio*\n\n` +
+                `*Name:* ${name}\n` +
+                `*Email:* ${email}\n` +
+                `*Phone:* ${phone || 'N/A'}\n` +
+                `*Subject:* ${subject}\n\n` +
+                `*Message:*\n${message}`
+            );
+
+            // Open WhatsApp
+            window.open(`https://wa.me/201119449175?text=${waText}`, '_blank');
+
+            // Show success & reset
+            form.reset();
+            successMsg.style.display = 'flex';
+            submitBtn.style.display  = 'none';
+        });
+
+        // ── Print / Download CV
+        function printCV(e) {
+            e.preventDefault();
+            window.print();
+        }
+    </script>
+</body>
+</html>
